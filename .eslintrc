@@ -1,0 +1,25 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint", "no-loops"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"rules": {
+		"no-console": "off",
+		"import/prefer-default-export": "off",
+		"@typescript-eslint/no-unused-vars": "warn",
+		"no-loops/no-loops": "off"
+	},
+	"env": {
+		"node": true
+	},
+	"ignorePatterns": [
+		"src/**/*.test.ts",
+		"src/frontend/generated/*",
+		"dist",
+		"**/*.js"
+	]
+}
