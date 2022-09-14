@@ -1,7 +1,9 @@
 console.log("hi");
 
-for (let i = 0; i < 10; i++) {
-	console.log(i);
+for (let i = 0; i < 10; i++)
+
+{
+  				console.log(i);
 }
 
-const x = 10;
+const x = "10";
