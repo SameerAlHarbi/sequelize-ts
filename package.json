@@ -14,7 +14,8 @@
 		"precommit": "npm run lint-fix && npm run pretty",
 		"prepush": "npm run lint",
 		"test": "jest",
-		"prepare2": "husky install"
+		"prepare2": "husky install",
+		"lint-staged": "{*/**:prettier --write --ignore-unknown}"
 	},
 	"keywords": [],
 	"author": "",
